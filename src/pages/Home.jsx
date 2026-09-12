@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 import chapters from "../data/chapters";
+import Footer from "../components/Footer";
 
 function Home() {
 
@@ -10,6 +11,7 @@ function Home() {
         <div className="page">
 
             <Navbar />
+            
 
 
             {/* =========================
@@ -254,13 +256,8 @@ function Home() {
                 FOOTER
             ========================= */}
 
-            <footer className="footer">
+            <Footer />
 
-                <p>
-                    ⚡ BeReady — Practice. Improve. Get Placement Ready.
-                </p>
-
-            </footer>
 
         </div>
     );

@@ -44,7 +44,7 @@ function Quiz() {
     const [answers, setAnswers] = useState({});
     const [markedQuestions, setMarkedQuestions] = useState({});
     const [paused, setPaused] = useState(false);
-    const [timeLeft, setTimeLeft] = useState(60 * 60);
+    const [timeLeft, setTimeLeft] = useState(100 * 60);
 
     let questions = [];
 
